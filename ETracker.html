@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Expense Tracker</title>
+    <link rel="stylesheet" href="ExpensesT.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Product Expenses Tracker</h1>
+
+        <div class="input-section">
+            <div class="form-group">
+                <label>Total Budget</label>
+                <input type="number" id="total-budget" placeholder="Enter total budget" />
+            </div>
+
+            <div class="form-group">
+                <label>Product Name</label>
+                <input type="text" id="product-name" placeholder="Enter product name" />
+            </div>
+
+            <div class="form-group">
+                <label>Price</label>
+                <input type="number" id="price" placeholder="Enter price" />
+            </div>
+
+            <div class="form-group">
+                <label>Number of Products</label>
+                <input type="number" id="product-count" placeholder="Enter number of products" />
+            </div>
+
+            <button id="add-product">Add Product</button>
+        </div>
+
+        <div class="table-section">
+            <div class="table-header">
+                <span>Product Name</span>
+                <span>Price</span>
+                <span>Actions</span>
+            </div>
+            <div id="product-list">
+                <!-- Product rows will appear here -->
+            </div>
+        </div>
+
+        <div class="summary-section">
+            <div class="summary-box">
+                <h3>Expenses</h3>
+                <span id="total-expenses">0</span>
+            </div>
+            <div class="summary-box">
+                <h3>Remaining</h3>
+                <span id="remaining-budget">0</span>
+            </div>
+        </div>
+
+        <div class="total-money-section">
+            <h3>Total Money</h3>
+            <span id="total-money">0</span>
+        </div>
+    </div>
+
+    <script src="ExpensesTracker.js"></script>
+
+</body>
+</html>

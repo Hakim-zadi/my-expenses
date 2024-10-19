@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #20b2aa;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+    margin-right: 2rem;
+}
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.form-group {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+.form-group label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 30px;   
+}
+input[type="number"], input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+}
+button {
+    padding: 10px 15px;
+    margin-right: 0;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #218838;
+}
+.table-section {
+    margin-top: 30px;
+}
+.table-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #0B504F;
+    color: white;
+    font-weight: bold;
+}
+#product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.product-row button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+.summary-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.summary-box {
+    padding: 20px;
+    background-color: #d4bc75;
+    width: 150px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.total-money-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #436F43;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 8px;
+}
+
